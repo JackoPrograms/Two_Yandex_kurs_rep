@@ -60,3 +60,13 @@ class Git_one:
     def __init__(self):
         self.name = JackoPrograms
 ```
+
+## mermaid (схема)
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
